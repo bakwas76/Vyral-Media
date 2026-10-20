@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vyral Media Style Navbar</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+
+      <!-- Logo -->
+      <a href="#" class="logo">
+        <img src="assests/img/logo.png" alt="">
+      </a>
+
+      <!-- Nav Links -->
+      <nav class="nav-links" id="navLinks">
+        <a href="./index.html" class="nav-link active">HOME</a>
+        <a href="./pages/services.html" class="nav-link">SERVICES</a>
+        <a href="./pages/about.html" class="nav-link">ABOUT US</a>
+        <a href="./pages/work.html" class="nav-link">OUR WORK</a>
+      </nav>
+
+      <!-- Contact Button -->
+      <a href="#" class="contact-btn">CONTACT US</a>
+
+      <!-- Hamburger  -->
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <main class="demo-content">
+    <section class="hero" data-aos="fade-up" data-aos-duration="1000">
+      <div class="hero-content">
+        <h1 class="hero-title">We make you <span>Visible</span></h1>
+        <p class="hero-subtitle">We craft bold brands and magnetic stories that turn presence into influence.</p>
+      </div>
+
+
+      <div class="social-sidebar">
+        <span class="social-line" data-aos="fade-down" data-aos-delay="500"></span>
+        <a href="#" class="social-icon" aria-label="Facebook" data-aos="fade-down" data-aos-delay="700">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="#" class="social-icon" aria-label="Instagram" data-aos="fade-down" data-aos-delay="850">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="#" class="social-icon" aria-label="YouTube" data-aos="fade-down" data-aos-delay="1000">
+          <i class="fa-brands fa-youtube"></i>
+        </a>
+        <a href="#" class="social-icon" aria-label="TikTok" data-aos="fade-down" data-aos-delay="1150">
+          <i class="fa-brands fa-tiktok"></i>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- New Generation Section -->
+  <section class="generation-section">
+    <div class="generation-content">
+      <h2 class="generation-title">New Generation</h2>
+      <p class="generation-text">We create powerful, innovative, fun, and memorable content. Our company is centered on
+        the idea that everything that you could possibly need is available under one roof. From creative
+        conceptualisation to production and execution – we do it all.</p>
+      <a href="#" class="generation-btn">Company Profile</a>
+    </div>
+  </section>
+
+  <!--  Work Section -->
+  <section class="work-section" id="ourwork">
+    <div class="work-header">
+      <h2 class="work-title">Our Work</h2>
+      <p class="work-text">Take a look at some of the standout projects we've delivered — real brands, real results,
+        brought to life through strategy and creativity.</p>
+    </div>
+
+    <div class="work-interactive">
+      <div class="work-list work-list-left">
+        <div class="work-item active" data-img="assests/img/Photo/1.jpg">
+          <span class="work-num">01</span>
+          <span class="work-label">Strategy &amp; Consulting</span>
+        </div>
+        <div class="work-item" data-img="assests/img/Photo/2.jpg">
+          <span class="work-num">02</span>
+          <span class="work-label">Personal Branding</span>
+        </div>
+        <div class="work-item" data-img="assests/img/Photo/3.jpg">
+          <span class="work-num">03</span>
+          <span class="work-label">Social Media Management</span>
+        </div>
+      </div>
+
+      <div class="work-phone-wrap">
+        <img src="assests/img/our-work-bg-image.png" alt="" class="work-phone-frame">
+        <div class="work-preview">
+          <img src="assests/img/Photo/1.jpg" alt="Our Work" id="workPreviewImg">
+        </div>
+      </div>
+
+      <div class="work-list work-list-right">
+        <div class="work-item" data-img="assests/img/Photo/4.jpg">
+          <span class="work-num">04</span>
+          <span class="work-label">Content Production</span>
+        </div>
+        <div class="work-item" data-img="assests/img/Photo/5.jpg">
+          <span class="work-num">05</span>
+          <span class="work-label">Paid Media &amp; Campaigns</span>
+        </div>
+        <div class="work-item" data-img="assests/img/Photo/6.jpg">
+          <span class="work-num">06</span>
+          <span class="work-label">Influencer &amp; Affiliate Marketing</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- stacked gallery -->
+    <div class="work-mobile-list">
+      <div class="work-mobile-item">
+        <span class="work-num">01</span>
+        <img src="assests/img/Photo/1.jpg" alt="">
+      </div>
+      <div class="work-mobile-item">
+        <span class="work-num">02</span>
+        <img src="assests/img/Photo/2.jpg" alt="">
+      </div>
+      <div class="work-mobile-item">
+        <span class="work-num">03</span>
+        <img src="assests/img/Photo/3.jpg" alt="">
+      </div>
+      <div class="work-mobile-item">
+        <span class="work-num">04</span>
+        <img src="assests/img/Photo/4.jpg" alt="">
+      </div>
+      <div class="work-mobile-item">
+        <span class="work-num">05</span>
+        <img src="assests/img/Photo/5.jpg" alt="">
+      </div>
+      <div class="work-mobile-item">
+        <span class="work-num">06</span>
+        <img src="assests/img/Photo/6.jpg" alt="">
+      </div>
+    </div>
+  </section>
+
+  <!-- Values Section -->
+  <section class="values-section" id="ourvalues">
+    <h2 class="values-title">Our Values</h2>
+
+    <div class="values-grid">
+      <div class="value-item">
+        <h3 class="value-heading">Creativity</h3>
+        <p class="value-text">Relentless pursuit of fresh, bold, and memorable ideas that inspire audiences and drive
+          action.</p>
+      </div>
+      <div class="value-item">
+        <h3 class="value-heading">Unique</h3>
+        <p class="value-text">In order to be irreplaceable one, must always be different.</p>
+      </div>
+      <div class="value-item">
+        <h3 class="value-heading">Integrity</h3>
+        <p class="value-text">Building trust through transparent, ethical communication and results-based delivery for
+          every partner.</p>
+      </div>
+      <div class="value-item">
+        <h3 class="value-heading">Passion</h3>
+        <p class="value-text">Love your family, work super hard live your passion.</p>
+      </div>
+      <div class="value-item">
+        <h3 class="value-heading">Ethics</h3>
+        <p class="value-text">Media always play a vital role in our democracy, and if we cannot depend on journalistic
+          ethics.</p>
+      </div>
+      <div class="value-item">
+        <h3 class="value-heading">Innovation</h3>
+        <p class="value-text">Marrying the latest digital technologies with industry-leading strategy.</p>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Scroll Showcase Section -->
+  <section class="showcase-section" id="scroll-showcase">
+    <div class="showcase-stage">
+      <div class="showcase-gallery" aria-label="Selected work">
+        <div class="showcase-track" aria-hidden="true">
+          <figure class="showcase-card"><img src="assests/img/mini_cooper.jpg" alt="Mini Cooper project"></figure>
+          <figure class="showcase-card"><img src="assests/img/Solefine.jpg" alt="Solefine project"></figure>
+          <figure class="showcase-card"><img src="assests/img/Aveenue.jpg" alt="Aveenue project"></figure>
+          <figure class="showcase-card"><img src="assests/img/COR_thumbnail.jpg" alt="COR project"></figure>
+          <figure class="showcase-card"><img src="assests/img/Daria.jpg" alt="Daria project"></figure>
+          <figure class="showcase-card"><img src="assests/img/HELT.jpg" alt="HELT project"></figure>
+          <figure class="showcase-card"><img src="assests/img/Inventure.jpg" alt="Inventure project"></figure>
+          <figure class="showcase-card"><img src="assests/img/mini_cooper.jpg" alt="Mini Cooper project"></figure>
+          <figure class="showcase-card"><img src="assests/img/OAK_coffee.jpg" alt="OAK Coffee project"></figure>
+          <figure class="showcase-card"><img src="assests/img/OAK_halloween.jpg" alt="OAK Halloween project"></figure>
+
+          <!-- duplicate set for a seamless automatic loop -->
+          <figure class="showcase-card"><img src="assests/img/mini_cooper.jpg" alt=""></figure>
+          <figure class="showcase-card"><img src="assests/img/Solefine.jpg" alt=""></figure>
+          <figure class="showcase-card"><img src="assests/img/Aveenue.jpg" alt=""></figure>
+          <figure class="showcase-card"><img src="assests/img/COR_thumbnail.jpg" alt=""></figure>
+          <figure class="showcase-card"><img src="assests/img/Daria.jpg" alt=""></figure>
+          <figure class="showcase-card"><img src="assests/img/HELT.jpg" alt=""></figure>
+          <figure class="showcase-card"><img src="assests/img/Inventure.jpg" alt=""></figure>
+          <figure class="showcase-card"><img src="assests/img/mini_cooper.jpg" alt=""></figure>
+          <figure class="showcase-card"><img src="assests/img/OAK_coffee.jpg" alt=""></figure>
+          <figure class="showcase-card"><img src="assests/img/OAK_halloween.jpg" alt=""></figure>
+        </div>
+      </div>
+
+      <div class="showcase-intro">
+        <div class="showcase-intro-inner">
+          <span class="showcase-kicker">OUR SERVICES</span>
+          <h2>CONTENT<br><span>IS KING</span></h2>
+          <a href="#ourwork" class="showcase-btn">OUR SERVICES</a>
+        </div>
+      </div>
+
+      <button class="showcase-expand" type="button" aria-label="Show the moving work gallery" aria-expanded="false">
+        ↗
+      </button>
+    </div>
+  </section>
+
+  <!-- Experience The Future Section -->
+  <section class="future-section">
+    <div class="future-container">
+      <h2 class="future-title">Experience<br>The Future</h2>
+
+      <div class="future-services">
+        <div class="future-service-item">
+          <span>PERSONAL</span>
+          <span>BRANDING</span>
+        </div>
+        <div class="future-service-item">
+          <span>PAID MEDIA</span>
+          <span>CAMPAIGN</span>
+        </div>
+        <div class="future-service-item">
+          <span>INFLUENCER &amp; AFFILIATE</span>
+          <span>MARKETING</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DNA Scroll Frame-Sequence Section -->
+  <section class="dna-scroll-section" id="dnaScroll">
+    <div class="dna-pin">
+      <canvas id="dnaCanvas" class="dna-canvas"></canvas>
+
+      <div class="dna-text-wrap">
+        <div class="dna-text-block" data-index="0">
+          <span class="dna-line">STRATEGY</span>
+          <span class="dna-line">AND</span>
+          <span class="dna-line">CONSULTING</span>
+        </div>
+        <div class="dna-text-block" data-index="1">
+          <span class="dna-line">CONTENT</span>
+          <span class="dna-line">CREATION</span>
+        </div>
+        <div class="dna-text-block" data-index="2">
+          <span class="dna-line">SOCIAL MEDIA</span>
+          <span class="dna-line">MANAGEMENT</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Contact Section -->
+  <footer class="footer-section">
+    <div class="footer-container">
+
+      <!-- Center Title -->
+      <h2 class="footer-title">WE MAKE YOU VISIBLE.</h2>
+
+      <!-- Left Contact Info List -->
+      <div class="footer-info">
+        <div class="footer-info-item">
+          <i class="fa-solid fa-phone footer-icon"></i>
+          <a href="tel:+971545206506">+971 54 520 6506</a>
+        </div>
+        <div class="footer-info-item">
+          <i class="fa-solid fa-globe footer-icon"></i>
+          <a href="https://www.vyral.ae" target="_blank">www.vyral.ae</a>
+        </div>
+        <div class="footer-info-item">
+          <i class="fa-solid fa-envelope footer-icon"></i>
+          <a href="mailto:Projects@vyral.ae">Projects@vyral.ae</a>
+        </div>
+        <div class="footer-info-item">
+          <i class="fa-solid fa-location-dot footer-icon"></i>
+          <span>Business Bay, Dubai, United Arab Emirates</span>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- WhatsApp floating button -->
+  <a href="https://wa.me/" target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">
+    <div id="whatsapp-lottie"></div>
+  </a>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script>
+    // hamburger 
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('navLinks');
+    const navItems = navLinks.querySelectorAll('a');
+
+    let isOpen = false;
+
+    hamburger.addEventListener('click', () => {
+      isOpen = !isOpen;
+      hamburger.classList.toggle('active', isOpen);
+
+      if (isOpen) {
+
+        gsap.to(navLinks, {
+          height: 'auto',
+          paddingTop: 20,
+          paddingBottom: 20,
+          duration: 0.4,
+          ease: 'power2.out'
+        });
+
+
+        gsap.to(navItems, {
+          opacity: 1,
+          y: 0,
+          duration: 0.4,
+          stagger: 0.1,
+          delay: 0.15,
+          ease: 'power2.out'
+        });
+
+      } else {
+
+        gsap.to(navItems, {
+          opacity: 0,
+          y: -15,
+          duration: 0.25,
+          stagger: 0.05,
+          ease: 'power2.in'
+        });
+
+
+        gsap.to(navLinks, {
+          height: 0,
+          paddingTop: 0,
+          paddingBottom: 0,
+          duration: 0.35,
+          delay: 0.15,
+          ease: 'power2.in'
+        });
+      }
+    });
+
+    //  Navbar 
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 10) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+    });
+
+    // WhatsApp icon 
+    lottie.loadAnimation({
+      container: document.getElementById('whatsapp-lottie'),
+      renderer: 'svg',
+      loop: true,
+      autoplay: true,
+      path: 'assests/img/WhatsApp Icon.json'
+    });
+
+    // AOS 
+    AOS.init({
+      duration: 1000,
+      once: true,
+      offset: 100,
+    });
+
+    // hover swap 
+    const workItems = document.querySelectorAll('.work-item');
+    const workPreviewImg = document.getElementById('workPreviewImg');
+
+    workItems.forEach(item => {
+      item.addEventListener('mouseenter', () => {
+        workItems.forEach(i => i.classList.remove('active'));
+        item.classList.add('active');
+        workPreviewImg.style.opacity = 0;
+        setTimeout(() => {
+          workPreviewImg.src = item.getAttribute('data-img');
+          workPreviewImg.style.opacity = 1;
+        }, 200);
+      });
+    });
+
+
+    // Scroll showcase — the work keeps moving automatically behind CONTENT IS KING.
+    (() => {
+      const showcase = document.getElementById('scroll-showcase');
+      const expand = showcase?.querySelector('.showcase-expand');
+      if (!showcase || !expand) return;
+
+      expand.addEventListener('click', () => {
+        const open = showcase.classList.toggle('is-open');
+        expand.setAttribute('aria-expanded', String(open));
+        expand.setAttribute(
+          'aria-label',
+          open ? 'Show CONTENT IS KING' : 'Show the moving work gallery'
+        );
+        expand.textContent = open ? '↙' : '↗';
+      });
+    })();
+
+
+    // ===================================================================
+    // DNA Scroll Frame-Sequence Section (GSAP + ScrollTrigger)
+    // Scrubs 141 images (assests/DNA/001.jpg -> 141.jpg) against scroll
+    // and swaps 3 headings in sync, each settling in letter-by-letter.
+    // ===================================================================
+    (() => {
+      gsap.registerPlugin(ScrollTrigger);
+
+      const dnaSection = document.getElementById('dnaScroll');
+      const dnaPin = dnaSection?.querySelector('.dna-pin');
+      const canvas = document.getElementById('dnaCanvas');
+      if (!dnaSection || !dnaPin || !canvas) return;
+
+      const ctx = canvas.getContext('2d');
+      const FRAME_COUNT = 141;
+      const FRAME_FOLDER = 'assests/DNA/';
+
+      const frameSrc = (i) => `${FRAME_FOLDER}${String(i).padStart(3, '0')}.jpg`;
+
+      // Preload all frames
+      const images = [];
+      let loadedCount = 0;
+      for (let i = 1; i <= FRAME_COUNT; i++) {
+        const img = new Image();
+        img.src = frameSrc(i);
+        img.onload = () => {
+          loadedCount++;
+          if (loadedCount === 1) render(); // draw as soon as first frame is ready
+        };
+        images.push(img);
+      }
+
+      const state = { frame: 1 };
+
+      function resizeCanvas() {
+        canvas.width = dnaPin.clientWidth;
+        canvas.height = dnaPin.clientHeight;
+        render();
+      }
+
+      function render() {
+        const idx = Math.min(FRAME_COUNT - 1, Math.max(0, Math.round(state.frame) - 1));
+        const img = images[idx];
+        if (!img || !img.complete || !img.naturalWidth) return;
+
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+        // cover-fit draw (like background-size: cover)
+        const canvasRatio = canvas.width / canvas.height;
+        const imgRatio = img.naturalWidth / img.naturalHeight;
+        let drawWidth, drawHeight, offsetX, offsetY;
+
+        if (imgRatio > canvasRatio) {
+          drawHeight = canvas.height;
+          drawWidth = img.naturalWidth * (drawHeight / img.naturalHeight);
+          offsetX = (canvas.width - drawWidth) / 2;
+          offsetY = 0;
+        } else {
+          drawWidth = canvas.width;
+          drawHeight = img.naturalHeight * (drawWidth / img.naturalWidth);
+          offsetX = 0;
+          offsetY = (canvas.height - drawHeight) / 2;
+        }
+
+        ctx.drawImage(img, offsetX, offsetY, drawWidth, drawHeight);
+      }
+
+      // ---- Text stage handling ----
+      const textBlocks = gsap.utils.toArray('.dna-text-block');
+
+      // Split every line into per-letter spans once, up front
+      textBlocks.forEach((block) => {
+        block.querySelectorAll('.dna-line').forEach((line) => {
+          const text = line.textContent;
+          line.innerHTML = text
+            .split('')
+            .map((ch) => (ch === ' ' ? ' ' : `<span class="dna-char">${ch}</span>`))
+            .join('');
+        });
+      });
+
+      let activeIndex = -1;
+
+      function showTextStage(index) {
+        if (index === activeIndex) return;
+        const prevBlock = textBlocks[activeIndex];
+        const nextBlock = textBlocks[index];
+
+        if (prevBlock) {
+          gsap.to(prevBlock.querySelectorAll('.dna-char'), {
+            opacity: 0,
+            y: -30,
+            filter: 'blur(6px)',
+            duration: 0.35,
+            stagger: 0.012,
+            ease: 'power2.in',
+            overwrite: true
+          });
+        }
+
+        if (nextBlock) {
+          const chars = nextBlock.querySelectorAll('.dna-char');
+          gsap.killTweensOf(chars);
+          gsap.fromTo(
+            chars,
+            {
+              opacity: 0,
+              x: () => gsap.utils.random(-130, 130),
+              y: () => gsap.utils.random(-70, 70),
+              rotate: () => gsap.utils.random(-25, 25),
+              filter: 'blur(4px)'
+            },
+            {
+              opacity: 1,
+              x: 0,
+              y: 0,
+              rotate: 0,
+              filter: 'blur(0px)',
+              duration: 0.7,
+              stagger: { amount: 0.45, from: 'random' },
+              ease: 'power3.out'
+            }
+          );
+        }
+
+        activeIndex = index;
+      }
+
+      // Initial paint
+      gsap.set(textBlocks, { opacity: 1 });
+      gsap.set('.dna-char', { opacity: 0 });
+
+      ScrollTrigger.create({
+        trigger: dnaSection,
+        start: 'top top',
+        end: () => '+=' + window.innerHeight * 3,
+        pin: dnaPin,
+        scrub: 0.6,
+        invalidateOnRefresh: true,
+        onUpdate(self) {
+          state.frame = 1 + self.progress * (FRAME_COUNT - 1);
+          render();
+
+          const stage = Math.min(
+            textBlocks.length - 1,
+            Math.floor(self.progress * textBlocks.length)
+          );
+          showTextStage(stage);
+        },
+        onRefresh() {
+          resizeCanvas();
+        }
+      });
+
+      resizeCanvas();
+      showTextStage(0);
+      window.addEventListener('resize', () => ScrollTrigger.refresh());
+    })();
+
+  </script>
+
+</body>
+
+</html>
